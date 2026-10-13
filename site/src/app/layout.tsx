@@ -1,0 +1,3 @@
+import type { Metadata } from "next"; import { Header, Footer } from "@/components/navigation"; import "./globals.css";
+export const metadata: Metadata = { title: { default: "412 Tech Repair | Pittsburgh Electronics Repair", template: "%s | 412 Tech Repair" }, description: "Pittsburgh electronics repair for phones, tablets, computers and game consoles. Explore services and our repair quote demo." };
+export default function Layout({children}:Readonly<{children:React.ReactNode}>){return <html lang="en"><body><a href="#main" className="skip">Skip to content</a><Header/><main id="main">{children}</main><Footer/></body></html>;}

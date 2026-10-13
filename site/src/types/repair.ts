@@ -1,0 +1,2 @@
+export interface RepairRequest { name: string; email?: string; phone?: string; category: string; makeModel: string; problem: string; }
+export type RepairStatus = "requested" | "diagnosing" | "awaiting_approval" | "in_progress" | "ready" | "completed";

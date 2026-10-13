@@ -1,0 +1,1 @@
+export const business = { name: "412 Tech Repair", location: "Pittsburgh, Pennsylvania", phone: null as string | null, facebookUrl: null as string | null };
